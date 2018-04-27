@@ -1,0 +1,31 @@
+
+h1{
+ color:#e040fb;
+ font-size: 50px;
+ font-style: bold;
+ text-align:center;
+ padding-bottom:50px;
+ font-family:"Comic Sans MS", cursive, sans-serif;
+
+ }
+
+ table{
+ border-collapse: collapse;
+    width: 100%;
+ }
+
+ table tr td {
+ border: 3px solid black;
+ padding-top:12px;
+ padding-bottom:12px;
+}
+
+table tr th{
+	border: 3px solid black;
+	font-weight:bold;
+	font-size:20px;
+	background-color:#e1bee7;
+	width:80px;
+}
+
+
