@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+ruby:
+  title: Saru organics
+  description: Get sarulicious using our range of products
+  image_url: saru.jpg
+  price: 1500.00

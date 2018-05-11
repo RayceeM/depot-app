@@ -1,7 +1,14 @@
 <p id="notice"><%= notice %></p>
 <h1>Hair Products</h1>
 
+<%= Time.now %>
+
 <table>
+	<th>Images</th>
+	<th>Description</th>
+	<th>Price</th>
+	<th>Action</th>
+
 <% @products.each do |product| %>
 <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
 <td>
@@ -10,9 +17,11 @@
 <td class="list_description">
 <dl>
 <dt><%= product.title %></dt>
-<dd><%= truncate(strip_tags(product.description),
-length: 80) %></dd>
+<dd><%= truncate(strip_tags(product.description),length: 80) %></dd>
 </dl>
+</td>
+<td class = "list_price">
+<%= product.price %>
 </td>
 <td class="list_actions">
 <%= link_to 'Show', product %><br/>
