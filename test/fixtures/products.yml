@@ -1,19 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
+  title: Hair Products Catalog
   description: MyText
-  image_url: MyString
-  price: 9.99
+  image_url: saru.jpeg
+  price: Ksh9.99
 
 two:
   title: MyString
   description: MyText
-  image_url: MyString
-  price: 9.99
+  image_url: hair1.jpg
+  price: Ksh9.99
 
 ruby:
   title: Saru organics
   description: Get sarulicious using our range of products
-  image_url: saru.jpg
-  price: 1500.00
+  image_url: saru.jpeg
+  price: Ksh1500.00
